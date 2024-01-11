@@ -38,4 +38,4 @@ calc12And5.difference(); // 7
 calc12And5.product(); // 60
 calc12And5.dividend(); // 2
 
-console.log(calc12And5.sum())
+console.log(calc12And5.sum());
