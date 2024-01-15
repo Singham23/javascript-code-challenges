@@ -3,6 +3,7 @@
 // - The `debounce` function forces a function to wait a certain amount of time before running again
 // - The function is built to limit the number of function calls to improve the performance
 // - Debounce function design can take function (to be debounced), delay and the optional context
+
 // Debouncing: Debouncing involves starting a timer when an event occurs and resetting the timer
 //  whenever a new event occurs within the delay period. 
 // The function is executed when the timer expires after the last event.
