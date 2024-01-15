@@ -8,9 +8,12 @@
   </head>
   <body>
     <div>Sam</div>
-    search data: <input type="text" onkeyup="processChange(event)" /> <!--debounce-->
-    <script src="script.js" defer></script>
+    search data(debounce): <input type="text" onkeyup="processDebounceChange(event)" /> <!--debounce-->
+    search data(thorttle): <input type="text" onkeyup="processThrottleChange(event)" /> <!--debounce-->
+
+    <!-- <script src="script.js" defer></script> -->
     <script src="debounce.js" defer></script>
+    <script src="thorttling.js" defer></script>
 
   </body>
 </html>
