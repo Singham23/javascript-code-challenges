@@ -18,7 +18,6 @@ function throttle(fn, delay, context) {
     context = this ?? context;
 
     if (timer) return;
-
     timer = setTimeout(() => {
       fn.apply(context, lastArgs);
       clearTimeout(timer);
